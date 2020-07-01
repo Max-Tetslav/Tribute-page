@@ -1,0 +1,103 @@
+#html {
+    background-color: whitesmoke;
+}
+#main {
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: 20px 10px 20px 10px;  
+    font-size: 20px;
+}
+#ooo {
+    margin: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px; 
+}
+header {
+    text-align: center;
+}
+#title {
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+}
+#tad {
+    font-family: 'PT Mono', monospace;
+}
+#img-div {
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    height: auto;
+    max-width: 100%;  
+}
+#img-caption {
+    font-family: 'PT Mono', monospace;
+}
+#tribute-info {
+    text-align: center;
+    font-family: strong;
+    font-family: 'PT Mono', monospace;
+}
+#info {
+    margin: 3% 30%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    font-family: 'PT Mono', monospace;
+}
+#image {
+    margin: 10px auto;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+#img-caption {
+    padding-bottom: 10px ;
+}
+#quote {
+    font-family: 'PT Mono', monospace;
+    text-align: center;
+    font-style: italic;
+}
+#wiki {
+    text-align: center;
+    font-family: 'PT Mono', monospace;
+}
+#tribute-link {
+    text-decoration: none;
+}
+blockquote {
+margin: 0;
+background: lightgray;
+padding: 40px;
+color: #000;
+position: relative;
+font-family: 'Lato', sans-serif;
+text-align: center;
+}
+blockquote:before, blockquote:after {
+font-size: 45px;
+color: #000;
+position: absolute;
+height: 2px;
+left: 40px;
+right: 40px;
+line-height: .5;
+background: linear-gradient(to right, #000 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #000 55%);
+font-family: serif;
+}
+blockquote:before {
+content: "\201C";
+top: 30px;
+}
+blockquote:after {
+content: "\201D";
+bottom: 30px;
+}
+blockquote p {
+font-size: 20px;
+}
+blockquote footer {
+margin-bottom: 1em;
+}
+blockquote cite {
+font-style: normal;
+}
